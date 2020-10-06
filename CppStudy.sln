@@ -7,6 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3F6F18E6-C24
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{17BA4DEC-EFFD-4AA8-B4F4-8A9F2AC13857}"
 	ProjectSection(SolutionItems) = preProject
+		Memo.md = Memo.md
 		README.md = README.md
 	EndProjectSection
 EndProject
