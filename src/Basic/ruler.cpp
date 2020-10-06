@@ -1,4 +1,4 @@
-// P.360 Listing 7.17
+// P.360 - Listing 7.17
 #include <iostream>
 const int Len = 66;
 const int Divs = 6;

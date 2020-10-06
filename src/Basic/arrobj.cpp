@@ -1,4 +1,4 @@
-// P.355
+// P.355 - Listing 7.15
 #include <iostream>
 #include <array>
 #include <string>

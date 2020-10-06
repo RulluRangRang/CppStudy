@@ -27,5 +27,8 @@
     <ClCompile Include="ruler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="fun_ptr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
