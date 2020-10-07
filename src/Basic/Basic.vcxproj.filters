@@ -42,5 +42,8 @@
     <ClCompile Include="secref.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="swaps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
