@@ -60,5 +60,8 @@
     <ClCompile Include="left.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="leftover.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
