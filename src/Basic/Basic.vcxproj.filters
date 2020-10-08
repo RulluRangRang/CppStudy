@@ -51,5 +51,8 @@
     <ClCompile Include="strc_ref.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="strquote.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
