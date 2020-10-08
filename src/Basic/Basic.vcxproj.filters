@@ -63,5 +63,8 @@
     <ClCompile Include="leftover.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="funtemp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
