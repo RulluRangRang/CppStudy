@@ -66,5 +66,8 @@
     <ClCompile Include="funtemp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="twotemps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
