@@ -69,5 +69,8 @@
     <ClCompile Include="twotemps.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="twoswap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
