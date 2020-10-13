@@ -72,5 +72,8 @@
     <ClCompile Include="twoswap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="templover.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
