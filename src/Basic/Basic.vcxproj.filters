@@ -78,5 +78,16 @@
     <ClCompile Include="choices.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="file1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="file2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="coordin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
