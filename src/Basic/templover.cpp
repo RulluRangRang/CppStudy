@@ -1,4 +1,4 @@
-// P.434 Listing 8.14
+// P.434 - Listing 8.14
 #include <iostream>
 
 template<typename T>		// template A

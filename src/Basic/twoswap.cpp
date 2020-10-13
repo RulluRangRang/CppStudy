@@ -1,4 +1,4 @@
-// P.427 Listing 8.13
+// P.427 - Listing 8.13
 #include <iostream>
 template<typename T>
 void Swap(T& a, T& b);

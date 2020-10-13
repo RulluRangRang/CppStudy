@@ -75,5 +75,8 @@
     <ClCompile Include="templover.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="choices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
