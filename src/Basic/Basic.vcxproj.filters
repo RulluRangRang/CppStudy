@@ -87,6 +87,12 @@
     <ClCompile Include="autoscp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="external.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="coordin.h">
