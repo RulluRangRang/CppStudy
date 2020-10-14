@@ -93,6 +93,12 @@
     <ClCompile Include="support.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="twofile1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="twofile2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="coordin.h">
