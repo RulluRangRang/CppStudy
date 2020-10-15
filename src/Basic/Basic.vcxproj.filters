@@ -111,12 +111,18 @@
     <ClCompile Include="usenmsp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="stock00.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="coordin.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="namesp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stock00.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
