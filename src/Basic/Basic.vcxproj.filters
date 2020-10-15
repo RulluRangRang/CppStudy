@@ -105,9 +105,18 @@
     <ClCompile Include="newplace.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="namesp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="usenmsp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="coordin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="namesp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
