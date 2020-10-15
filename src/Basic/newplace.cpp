@@ -52,3 +52,8 @@ int main()
 	delete[] pd3;
 	return 0;
 }
+
+// Other forms of Placement new
+// int* p1 = new int;				// invokes new(sizeof(int))
+// int* p1 = new (buffer) int;		// invokes new(sizeof(int), buffer)
+// int* p1 = new (buffer) int[40];	// invokes new(40*sizeof(int), buffer)
