@@ -9,7 +9,7 @@ void Stock::acquire(const std::string& co, long n, double pr) {
 	if (n < 0)
 	{
 		std::cout << "Number of shares can`t be negative; "
-				  << company << " shares set to 0.\n";
+			<< company << " shares set to 0.\n";
 		shares = 0;
 	}
 	else
@@ -22,7 +22,7 @@ void Stock::acquire(const std::string& co, long n, double pr) {
 void Stock::buy(long num, double price) {
 	if (num < 0) {
 		std::cout << "Number of shares purchased can`t be negative. "
-				  << "Transaction is aborted.\n";
+			<< "Transaction is aborted.\n";
 	}
 	else
 	{
@@ -36,7 +36,7 @@ void Stock::sell(long num, double price) {
 	using std::cout;
 	if (num < 0) {
 		cout << "Number of shares sold can`t be negative. "
-			 << "Transaction is aborted.\n";
+			<< "Transaction is aborted.\n";
 	}
 	else {
 		shares -= num;
@@ -51,8 +51,20 @@ void Stock::update(double price) {
 }
 
 void Stock::show() {
-	std::cout << "Company: " << company
-		<< " Shares: " << shares << '\n'
-		<< " Share Price: $" << share_val
-		<< " Total Worth: $" << total_val << '\n';
+	using std::cout;
+	using std::ios_base;
+	// set format to #.###
+	ios_base::fmtflags orig = cout.setf(ios_base::fixed, ios_base::floatfield);
+	std::streamsize prec = cout.precision(3);
+
+	cout << "Company: " << company
+		<< " Shares: " << shares << '\n';
+	cout << " Share Price: $" << share_val;
+	// set format to #.##
+	cout.precision(2);
+	cout << " Total Worth: $" << total_val << '\n';
+
+	// restore original format
+	cout.setf(orig, ios_base::floatfield);
+	cout.precision(prec);
 }
