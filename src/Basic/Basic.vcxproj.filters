@@ -102,6 +102,9 @@
     <ClCompile Include="static.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="newplace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="coordin.h">
