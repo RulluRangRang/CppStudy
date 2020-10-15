@@ -114,6 +114,9 @@
     <ClCompile Include="stock00.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="usestok0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="coordin.h">
