@@ -123,6 +123,9 @@
     <ClCompile Include="usestok1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="stock20.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="coordin.h">
@@ -135,6 +138,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="stock10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stock20.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

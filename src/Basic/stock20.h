@@ -1,24 +1,26 @@
-// P.530 - Listing 10.4
-// stock10.h -- Stock class declaration with constructors, destructor added
-#ifndef STOCK10_H_
-#define STOCK01_H_
+// P.543 - Listing 10.7
+// stock20.h -- argumented version
+#ifndef STOCK20_H_
+#define STOCK20_H_
 #include <string>
-class Stock
-{
+
+class Stock {
 private:
 	std::string company;
-	long shares;
+	int shares;
 	double share_val;
 	double total_val;
 	void set_tot() { total_val = shares * share_val; }
+
 public:
-	// two constructors
-	Stock(); // default constructor
+	Stock();		// default constructor
 	Stock(const std::string& co, long n = 0, double pr = 0.0);
-	~Stock(); // noisy destructor
+	~Stock();		// do-nothing destructor
 	void buy(long num, double price);
 	void sell(long num, double price);
 	void update(double price);
-	void show();
+	void show() const;
+	const Stock& topval(const Stock& s) const;
 };
-#endif // !STOCK01_H_
+
+#endif

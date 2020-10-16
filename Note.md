@@ -38,3 +38,15 @@
 - extern
 - thread_local
 - mutable
+
+## Constructors and Destructors in Review
+[C++ 11 이전]
+- Bozo(const char * fname, const char * lname)	// constructor prototype
+- Bozo bosetta = bozo("Bozetta", "Biggens");	// primary form
+- Bozo fufu("Fufu", "O`Dweeb");					// short form
+- Bozo *pc = new Bozo("Popo", "Le Peu");		// dynamic object
+
+[C++ 11 이후]
+Bozo bozetta = {"Bozetta", "Biggens"};			// C++11
+Bozo fufu{"Fufu", "O’Dweeb"}					// C++11;
+Bozo *pc = new Bozo{"Popo", "Le Peu"};			// C++11
