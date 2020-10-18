@@ -141,6 +141,12 @@
     <ClCompile Include="usetime0.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="mytime1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="usetimes1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="coordin.h">
@@ -162,6 +168,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="mytime0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mytime1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
