@@ -135,6 +135,12 @@
     <ClCompile Include="stacker.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="mytime0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="usetime0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="coordin.h">
@@ -153,6 +159,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mytime0.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
