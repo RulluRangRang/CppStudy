@@ -159,6 +159,15 @@
     <ClCompile Include="usetime3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="vect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="myfirst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="carrots.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="coordin.h">
@@ -189,6 +198,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="mytime3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vect.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
