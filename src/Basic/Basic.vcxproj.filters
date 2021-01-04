@@ -252,6 +252,9 @@
     <ClCompile Include="strtype4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="structur.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="coordin.h">
