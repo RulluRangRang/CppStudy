@@ -50,3 +50,16 @@
 Bozo bozetta = {"Bozetta", "Biggens"};			// C++11
 Bozo fufu{"Fufu", "O’Dweeb"}					// C++11;
 Bozo *pc = new Bozo{"Popo", "Le Peu"};			// C++11
+
+## Union(공용체, P.150)
+- 참고 : https://stackoverflow.com/questions/346536/difference-between-a-structure-and-a-union
+- 참고 : http://soen.kr/lecture/ccpp/cpp1/13-5-1.htm
+union foo {
+	int a;	// can`t use both a and b at once
+	char b;
+} foo;
+- union 내에 선언된 변수 a, b는 동시에 사용할 수 없고 한번에 한개의 변수만 사용할 수 있다.
+현재 GB급 메모리를 제공하는 시스템에서는 특별히 사용용도가 없지만, 
+Embadded System같은 한정적인 메모리를 가진 시스템에서는 아주 유용하게 사용할 수 있다.
+만약, 어떠한 값(ID value)를 동일한 메모리 위치에 저장해야할 필요가 있는 데, 해당 값이
+1 가지 이상의 type(예: int, long, string 등)으로 처리해야할 필요성이 있을 때 사용해야 한다.
