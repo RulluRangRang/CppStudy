@@ -273,6 +273,12 @@
     <ClCompile Include="use_new.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="arraynew.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addpntrs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="coordin.h">
