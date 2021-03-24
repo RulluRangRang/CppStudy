@@ -306,6 +306,12 @@
     <ClCompile Include="formore.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="bigstep.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="forstr1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="coordin.h">
