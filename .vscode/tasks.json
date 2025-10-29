@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "ttt",
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "mkdir -p ${fileDirname}/build && /usr/bin/clang++",
+        "-arch", "arm64",
+        "-std=c++17",
+        "${file}",
+        "-o",
+        "${fileDirname}/build/${fileBasenameNoExtension}"
+      ],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "compiler: clang++ (arm64)"
+    }
+  ]
+}

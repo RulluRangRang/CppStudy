@@ -1,0 +1,19 @@
+# 빌드 결과물 (실행파일, 오브젝트 파일)
+*.o
+*.obj
+*.out
+*.exe
+*.a
+*.so
+*.dylib
+
+# 실행 바이너리 (예: main, test, app 등)
+main
+app
+test
+
+# 디버깅 심볼
+*.dSYM/
+
+# VSCode 관련
+# .vscode/
