@@ -7,12 +7,7 @@
       "command": "/bin/bash",
       "args": [
         "-c",
-        "mkdir -p ${fileDirname}/build && /usr/bin/clang++",
-        "-arch", "arm64",
-        "-std=c++17",
-        "${file}",
-        "-o",
-        "${fileDirname}/build/${fileBasenameNoExtension}"
+        "mkdir -p ${fileDirname}/build && /usr/bin/clang++ -arch arm64 -std=c++17 ${file} -o ${fileDirname}/build/${fileBasenameNoExtension}"
       ],
       "options": {
         "cwd": "${fileDirname}"
