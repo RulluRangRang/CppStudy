@@ -3,7 +3,7 @@
   "tasks": [
     {
       "type": "shell",
-      "label": "ttt",
+      "label": "C++ Compile tasks",
       "command": "/bin/bash",
       "args": [
         "-c",

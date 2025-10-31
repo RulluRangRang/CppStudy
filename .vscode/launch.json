@@ -10,7 +10,7 @@
       "stopAtEntry": false,
       "cwd": "${fileDirname}",
       "MIMode": "lldb",
-      "preLaunchTask": "ttt"
+      "preLaunchTask": "C++ Compile tasks"
     }
   ]
 }
